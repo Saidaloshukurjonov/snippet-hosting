@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.body {
+    background-color: #EDF3F8;
+}
+.li__a {
+    color: #36536B;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.div__ul {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.div__ul1 {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.header {
+    padding: 35px;
+}
+.li__button {
+    padding: 16px 26px;
+    background-color: #BA4270;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.main__section > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__h1 {
+    font-size: 70px;
+    width: 546px;
+    color: #36536B;
+}
+.Who-we-work-with {
+    background-color: #1B262F;
+    padding: 100px 165px;
+} 
+.div__h2 {
+    color: white;
+}
+.div__p {
+    font-size: 15px;
+    width: 445px;
+    color: white;
+    margin-top: 20px;
+}
+.div__button {
+    padding: 12px 32px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+}
+.section {
+    margin-bottom: 72px;
+}
+.Who-we-work-with > .container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.section__div {
+    flex-wrap: wrap;
+    gap: 30px;
+    display: flex;
+}
+.div__img {
+    height: 28px;
+}
+.Easy-to {
+    color: #36536B;
+    font-size: 48px;
+} 
+.our-API {
+    color: #36536B;
+    font-size: 15px;
+    width: 400px;
+    margin-top: 10px;
+}
+.Easy-to-implement > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.div__h3 {
+    color: #36536B;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.Consolidate {
+    color: #36536B;
+    font-size: 15px;
+    width: 350px;
+}
+.banck {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.section > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.Pricing {
+    display: flex;
+    column-gap: 30px;
+}
+.footer {
+    background-image: url(./photo/Bitmap\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 38px 164px;
+}
+.li__a1 {
+    color: #fbfcfe;
+}
+.img-Path {
+    column-gap: 20px;
+    display: flex;
+}
+.footer > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.div-Path__img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 1024px) {
+    .main__section > .container {
+        flex-direction:  column-reverse;
+    }
+    .div__h1 {
+        color: rgb(54, 83, 107);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        text-align: center;
+    }
+    .main__section {
+        padding-bottom: 48px;
+    }
+    .Who-we-work-with > .container {
+        flex-direction: column-reverse;
+    }
+    .div__h2 {
+        color: rgb(251, 252, 254);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        text-align: center;
+    }
+    .div__p {
+        color: rgb(251, 252, 254);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .div__button {
+        color: rgb(251, 252, 254);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.12px;
+        text-align: center;
+        display: block;
+        width: 129px;
+        margin: 0 auto;
+    }
+    .section__div {
+        width: 536px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    .div__img {
+        height: 30px;
+        width: 125px;
+    }
+    .Easy-to-implement > .container {
+        flex-direction: column;
+    } 
+    .Easy-to {
+        color: rgb(54, 83, 107);
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        text-align: center;
+    }
+    .our-API {
+        color: rgb(108, 130, 148);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .container__div1 {
+        color: rgb(54, 83, 107);
+        font-family: "Public Sans";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-top: 70px;
+        letter-spacing: -0.14px;
+        text-align: center;
+    }
+    .Consolidate {
+        color: rgb(108, 130, 148);
+        font-family: "Public Sans";
+        font-size: 15px;
+        width: 223px;
+        height: 150px;
+        margin-left: 50px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.12px;
+        text-align: center;
+    }
+} 
+@media (max-width: 426px) {
+    .div__ul {
+        display: none;
+    }
+}
+@media (max-width:425px) {
+    .header__nav__div {
+        background-image: url(./photo/Group.png);
+        display: block;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+    }
+    .phone {
+        width: 300px;
+        height: 500px;
+    }
+    .main__section > .container {
+        margin: 0 auto;
+    }
+    .div__h1 {
+        color: rgb(54, 83, 107);
+        font-family: "DM Serif Display";
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.25px;
+        text-align: center;
+        width: 327px;
+    }
+    .section__div {
+        flex-wrap: wrap;
+        display: flex;
+        width: 280px;
+        gap: 30px;
+        padding-right: px;
+    }
+    .Who-we-work-with {
+        padding: 110px 325px;
+        background-color: #1B262F;
+    }
+    .div__h2 {
+        width: 400px;
+        text-shadow: 0px 4px 0px  #000000;
+    }
+    .div__p {
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+    .div__button {
+        border: 1px solid #FBFCFE
+    }
+    .Easy-to-implement > .container {
+        margin: 0 auto;
+    }
+    .Easy-to {
+        font-family: "DM Serif Display";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.2769230902194977px;
+        text-align: center;
+    }
+    .our-API {
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+    .section > .container {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .footer > .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div__ul1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
+        margin-top: 40px;
+        width: 58px;
+        column-gap: 50px;
+        color: #FBFCFE;
+        margin-left: 40px;
+        gap: 20px;
+    }
+    .Pricing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
